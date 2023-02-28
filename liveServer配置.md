@@ -17,6 +17,8 @@
 <img width="518" alt="image" src="https://user-images.githubusercontent.com/70060430/221749165-df3259bd-540d-4e9b-aaf7-a2a7739c64cd.png">
 
 
-4. 在我们自己的`json`文件中复制好代码之后，根据我们自己的需求，调整属性值，然后重启`go live`就可以了
+4. 在我们自己的`json`文件中复制好代码之后，根据我们自己的需求，调整属性值，然后重启`go live`就可以了,本次我想设置的是让`liveServer`忽视项目文件夹中json文件夹的变化，所以加上了json文件夹的目录路径：`'**/json/*`:
 <img width="581" alt="image" src="https://user-images.githubusercontent.com/70060430/221749212-b5ead819-6e40-4725-8c5b-319e237ec2d2.png">
 
+
+注意点：`settings`中的目录路径修改需要先回到项目目录下,`**/`即回到本文件的上一级目录，`/*`为选中`/`前目录文件夹下的所有文件或文件夹
